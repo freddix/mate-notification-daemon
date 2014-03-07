@@ -1,19 +1,19 @@
 Summary:	MATE notification daemon
 Name:		mate-notification-daemon
-Version:	1.6.1
+Version:	1.8.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	1c4eb6137fab8d83a15e1d68d0f865ea
+Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
+# Source0-md5:	f9cb50a86c30bccc8728adcbf6a04f32
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	intltool
-BuildRequires:	libmatewnck-devel
 BuildRequires:	libnotify-devel
 BuildRequires:	libstdc++-devel
+BuildRequires:	libwnck2-devel
 BuildRequires:	pkg-config
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	glib-gio-gsettings
