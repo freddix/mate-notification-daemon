@@ -1,11 +1,11 @@
 Summary:	MATE notification daemon
 Name:		mate-notification-daemon
-Version:	1.8.0
+Version:	1.8.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
-# Source0-md5:	f9cb50a86c30bccc8728adcbf6a04f32
+# Source0-md5:	305d64a23982479575dfd169a00ff398
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel
